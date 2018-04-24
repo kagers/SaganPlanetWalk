@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link href='css/styles.css' rel='stylesheet'>
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <script type="text/javascript">
+
+  // Original JavaScript code by Chirp Internet: www.chirp.com.au
+  // Please acknowledge use of this code by including this header.
+
+  window.addEventListener("DOMContentLoaded", function(e) {
+
+    var stage = document.getElementById("stage");
+    var fadeComplete = function(e) { stage.appendChild(arr[0]); };
+    var arr = stage.getElementsByTagName("a");
+    for(var i=0; i < arr.length; i++) {
+      arr[i].addEventListener("animationend", fadeComplete, false);
+    }
+
+  }, false);
+
+</script>
+    </head>
+    
+    <body>
+        <div id=header>
+            <br>
+            <div>
+                <img class="center" src="img/logo_science.png">
+            </div>
+            <div>
+                <img class="left" src="img/logo_sagan.png">
+            </div>
+            <div class="right">
+                <img class="center" src="img/logo_cornell.png"><br>
+                <img class="center" src="img/logo_spif.png">
+            </div>
+            <div id="slideshow">
+                <img class="center slide w3-animate-fading" src="img/Sun.png">
+                <img class="center slide w3-animate-fading" src="img/Mercury.png">
+                <img class="center slide w3-animate-fading" src="img/Venus.png">
+                <img class="center slide w3-animate-fading" src="img/Earth.png">
+                <img class="center slide w3-animate-fading" src="img/Mars.png">
+                <img class="center slide w3-animate-fading" src="img/Ceres.png">
+                <img class="center slide w3-animate-fading" src="img/Jupiter.png">
+                <img class="center slide w3-animate-fading" src="img/Saturn.png">
+                <img class="center slide w3-animate-fading" src="img/Uranus.png">
+                <img class="center slide w3-animate-fading" src="img/Neptune.png">
+                <img class="center slide w3-animate-fading" src="img/Pluto.png">
+            </div>
+            
+            <script>
+var index = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("slide");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    index++;
+    if (index > x.length) {index = 1}    
+    x[index-1].style.display = "block";  
+    setTimeout(carousel, 2700);    
+}
+            </script>
+            
+        </div><br>
+    
+        <div class="topnav" id="navbar">
+            <a href="" class="active">Home</a>
+            <a href="">Our Sun</a>
+            <div class="dropdown">
+                <button class="dropbtn">Rocky Planets 
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Mercury</a>
+                    <a href="#">Venus</a>
+                    <a href="#">Earth</a>
+                </div>
+            </div> 
+            <div class="dropdown">
+                <button class="dropbtn">Giant Planets 
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Jupiter</a>
+                    <a href="#">Saturn</a>
+                    <a href="#">Uranus</a>
+                    <a href="#">Neptune</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Other Bodies 
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Main Asteroid Belt</a>
+                    <a href="#">Kuiper Belt</a>
+                    <a href="#">Oort Cloud</a>
+                    <a href="#">Alpha Centauri</a>
+                </div>
+            </div>
+            <a href="">Contact</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="toggle()">&#9776;</a>
+        </div> 
+        
+        <script>
+function toggle() {
+    var x = document.getElementById("navbar");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+        </script>
+        
+    
+    </body>
+    
+</html>
