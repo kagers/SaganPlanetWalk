@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link href='css/styles.css' rel='stylesheet'>
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    </head>
+    
+    <body>
+        <div id=header>
+         <div id="home">
+            <div class="inner">
+                <div id="backgroundchange">
+                    <div class="backgroundimg" id="back1"></div>
+                    <div class="backgroundimg" id="back2"></div>
+                    <div class="backgroundimg" id="back3"></div>
+                    <div class="backgroundimg" id="back4"></div>
+                    <div class="backgroundimg" id="back5"></div>
+                    <div class="backgroundimg" id="back6"></div>
+                    <div class="backgroundimg" id="back7"></div>
+                    <div class="backgroundimg" id="back8"></div>
+                    <div class="backgroundimg" id="back9"></div>
+                    <div class="backgroundimg" id="back10"></div>
+                    <div class="backgroundimg" id="back11"></div>
+                    <div>
+                <img class="left" src="img/logo_science.png"><br><br><br>
+                <img class="left" id="sagan" src="img/logo_sagan.png">
+            </div>
+            <div class="right">
+                <img class="center" id="spif" src="img/logo_spif.png"><br>
+                <img class="center" id="cornell" src="img/logo_cornell.png">
+            </div>
+            <div class="center" id="slideshow">
+                
+            </div>
+            
+            <script>
+var index = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("slide");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    index++;
+    if (index > x.length) {index = 1}    
+    x[index-1].style.display = "block";  
+    setTimeout(carousel, 2700);    
+}
+            </script>
+                </div>
+            <br>
+            
+            
+             </div><br></div></div>
+    
+        <div class="nnavbar">
+            <a href="#" class="active">Home</a>
+            <a href="#">Our Sun</a>
+            <div class="ddropdown">
+                <button class="ddropbtn">Rocky Planets 
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="ddropdown-content">
+                    <a href="#">Mercury</a>
+                    <a href="#">Venus</a>
+                    <a href="#">Earth</a>
+                </div>
+            </div> 
+            <div class="ddropdown">
+                <button class="ddropbtn">Giant Planets 
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="ddropdown-content">
+                    <a href="#">Jupiter</a>
+                    <a href="#">Saturn</a>
+                    <a href="#">Uranus</a>
+                    <a href="#">Neptune</a>
+                </div>
+            </div>
+            <div class="ddropdown">
+                <button class="ddropbtn">Other Bodies 
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="ddropdown-content">
+                    <a href="#">Main Asteroid Belt</a>
+                    <a href="#">Kuiper Belt</a>
+                    <a href="#">Oort Cloud</a>
+                    <a href="#">Alpha Centauri</a>
+                </div>
+            </div>
+            <a href="">Contact</a>
+        </div> 
+        
+                
+        <div id="main">
+            <p>
+                
+            </p>
+        
+        
+        </div>
+        
+        
+    
+    </body>
+    
+</html>
+
+#back1 {
+    background: url("../img/Sun.png") no-repeat;
+
+}
+
+#back2 {
+    background: url("../img/Mercury.png") no-repeat;
+}
+
+#back3 {
+    background: url("../img/Venus.png") no-repeat;
+}
+
+#back4 {
+    background: url("../img/Earth.png") no-repeat;
+}
+
+#back5 {
+    background: url("../img/Mars.png") no-repeat;
+}
+
+#back6 {
+    background: url("../img/Ceres.png") no-repeat;
+}
+
+#back7 {
+    background: url("../img/Jupiter.png") no-repeat;
+}
+
+#back8 {
+    background: url("../img/Saturn.png") no-repeat;
+}
+
+#back9 {
+    background: url("../img/Uranus.png") no-repeat;
+}
+
+#back10 {
+    background: url("../img/Neptune.png") no-repeat;
+}
+
+#back11 {
+    background: url("../img/Pluto.png") no-repeat;
+}
+
+
+@keyframes backgroundchangeFadeInOut {
+  0% {
+    opacity:1;
+  }
+  17% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  92% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+
+#backgroundchange div:nth-of-type(1) {
+  animation-delay: 20s;
+  -webkit-animation-delay: 20s;
+}
+#backgroundchange div:nth-of-type(2) {
+  animation-delay: 18s;
+  -webkit-animation-delay: 18s;
+}
+#backgroundchange div:nth-of-type(3) {
+  animation-delay: 16s;
+  -webkit-animation-delay: 16s;
+}
+#backgroundchange div:nth-of-type(4) {
+  animation-delay: 14s;
+  -webkit-animation-delay: 14s;
+}
+
+#backgroundchange div:nth-of-type(5) {
+  animation-delay: 12s;
+  -webkit-animation-delay: 12s;
+}
+
+#backgroundchange div:nth-of-type(6) {
+  animation-delay: 10s;
+  -webkit-animation-delay: 10s;
+}
+#backgroundchange div:nth-of-type(7) {
+  animation-delay: 8s;
+  -webkit-animation-delay: 8s;
+}
+#backgroundchange div:nth-of-type(8) {
+  animation-delay: 6s;
+  -webkit-animation-delay: 6s;
+}
+#backgroundchange div:nth-of-type(9) {
+  animation-delay: 4s;
+  -webkit-animation-delay: 4s;
+}
+
+#backgroundchange div:nth-of-type(10) {
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+}
+
+#backgroundchange div:nth-of-type(11) {
+  animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+}
+
+#backgroundchange div {
+animation-name: backgroundchangeFadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 20s;
+
+-webkit-animation-name: backgroundchangeFadeInOut;
+-webkit-animation-timing-function: ease-in-out;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-duration: 20s;
+
+}

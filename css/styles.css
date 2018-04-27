@@ -300,6 +300,27 @@ animation-duration: 24s;
 ********************************************************************************************************************************/
 
 #main {
-    background-color:white;
-    opacity:50%;
+    background-color: rgb(255,255,255,0.5);
+    padding: 10px;
+    margin: auto;
+    width: 95%;
+}
+
+.block {
+    background-color: rgb(255,255,255,0.5);
+    margin: auto;
+    width: 95%;
+    padding: 10px;
+}
+
+.headers {
+    background-color: #1a234f;
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: auto;
+    width: 95%;
 }
