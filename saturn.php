@@ -1,4 +1,6 @@
-<?php include ("homeheader.php") ?>
+<?php 
+$image = "img/Saturn.png";
+include ("header.php") ?>
         
         <div id="main">
             <div class='row intro'>
