@@ -373,14 +373,6 @@ animation-duration: 24s;
     width: 95%;
 }
 
-.block {
-    background-color: rgb(255,255,255,0.75);
-    margin: auto;
-    width: 95%;
-    padding: 10px;
-    font-size: 14px;
-}
-
 .headers {
     background-color: #1a234f;
     color: white;
@@ -390,6 +382,49 @@ animation-duration: 24s;
     padding-top: 1%;
     padding-bottom: 1%;
     margin: auto;
-    width: 95%;
+    width: 100%;
     font-size: 18px;
+    border-bottom-right-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    box-shadow: 0px 5px 23px rgba(0, 0, 0, 1);
 }
+
+.desc {
+    background-color: rgb(255,255,255,0.75);
+    margin: auto;
+    width: 95%;
+    font-size: 14px;
+    -webkit-border-radius: 0 0 1.5em 1.5em;
+    border-radius: 0 0 1.5em 1.5em; 
+}
+.desc h1 {
+    margin-top: .5em;
+}
+.desc .block {
+    padding-top: 1em; 
+    padding: 1.2em;
+    
+    
+}
+.desc ul {
+    padding-left: 1.3em;
+    list-style-type: circle;
+}
+.desc b {
+    color: #1a234f; 
+}
+.paddingTop {
+    padding-top: 1em;
+}
+
+#sagan img {
+    height: 10em;
+    width: 10em;
+    border-radius: 10000px;
+}
+
+.imgCont1 {
+    padding: 1%;
+    flex: 1.0;
+}
+
