@@ -20,12 +20,31 @@ body {
     width: 120%;
 }
 
+.rightbottom {
+    margin-top: -1em;
+    float: right;
+    padding: 30px;
+    z-index: 2;
+    position: relative;
+}
+
 .left {
     float: left;
     width: 300px;
     z-index: 2;
     position: relative;
     padding: 10px;
+}
+
+.leftbottom {
+    float: left;
+    width: 300px;
+    z-index: 2;
+    position: relative;
+    padding: 10px;
+    left: 1em;
+    margin-top: 0.5em;
+    margin-left: 0.6em; 
 }
 
 .center {
@@ -52,7 +71,42 @@ body {
 
 #cornell {
     float: right;
+    margin-top: 0.5em;
 }
+
+#citation {
+    float: right;
+    color: white;
+    font-size: 12px;
+    bottom: 0;
+}
+
+#footer {
+    overflow: hidden; 
+    height: 100%;
+}
+
+#holder {
+    overflow: hidden; 
+    height: 100%;
+}
+
+#citation {
+    position: absolute; 
+    bottom: 0; 
+    color:white; 
+    width:97.5%; 
+    text-align:right;
+}
+
+#citationholder {
+    position: relative;
+}
+
+#universe {
+    
+}
+
 
 /********************************************************************************************************************************
 *********************************************************** SLIDES **************************************************************
@@ -61,6 +115,19 @@ body {
 
 
 .backgroundimg {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    margin-top: -6.5em;
+    margin-left: 9em;   
+}
+
+.headerimg {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -311,6 +378,7 @@ animation-duration: 24s;
     margin: auto;
     width: 95%;
     padding: 10px;
+    font-size: 14px;
 }
 
 .headers {
@@ -323,4 +391,5 @@ animation-duration: 24s;
     padding-bottom: 1%;
     margin: auto;
     width: 95%;
+    font-size: 18px;
 }
