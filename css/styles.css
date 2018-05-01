@@ -417,14 +417,47 @@ animation-duration: 24s;
     padding-top: 1em;
 }
 
-#sagan img {
-    height: 10em;
-    width: 10em;
-    border-radius: 10000px;
-}
-
 .imgCont1 {
     padding: 1%;
     flex: 1.0;
 }
 
+#people {
+    width: 97%;
+    height:auto;
+    border-radius: 1em;;
+}
+.img-group{
+    display: flex;
+    text-align: center;
+}
+
+button {
+    padding: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 20px;
+}
+.buttons button {
+    margin-top: 2%;
+}
+.buttons{
+    padding-top: 1%;
+    text-align: center;
+}
+.buttons a {
+    color:#1a234f;
+    margin: .8%;
+}
+#sagan img {
+    height: 11em;
+    width: 11em;
+    border-radius: 10000px;
+    margin-top: 1.8em;
+}
+#map {
+    height: 115%;
+    width: auto;
+    border-radius: 1em;
+    margin-top: 0.5em;
+}
