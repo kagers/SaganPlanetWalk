@@ -423,11 +423,23 @@ animation-duration: 24s;
     flex: 1.0;
 }
 
-#people, #jup {
+#people {
     width: 97%;
     height:auto;
     border-radius: 1em;;
 }
+
+#jup {
+    width: 97%;
+    height:auto;
+}
+
+#char {
+    width: 70%;
+    height:auto;
+    margin-top: 1.5em;
+}
+
 .img-group{
     display: flex;
     text-align: center;
@@ -482,5 +494,11 @@ ol a {
     padding: 2%;
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+    text-align: center;
+}
+
+#station {
+    height:50%;
+    width:auto;
 }
