@@ -394,7 +394,7 @@ animation-duration: 24s;
     background-color: rgb(255,255,255,0.75);
     margin: auto;
     width: 95%;
-    font-size: 14px;
+    font-size: 16px;
     -webkit-border-radius: 0 0 1.5em 1.5em;
     border-radius: 0 0 1.5em 1.5em; 
 }
@@ -418,12 +418,12 @@ animation-duration: 24s;
     padding-top: 1em;
 }
 
-.imgCont1 {
+.imgCont1, .imgCont2 {
     padding: 1%;
     flex: 1.0;
 }
 
-#people {
+#people, #jup {
     width: 97%;
     height:auto;
     border-radius: 1em;;
@@ -463,7 +463,9 @@ button {
     margin-top: 0.5em;
 }
 
-
+ol a {
+    color: #1a234f;
+}
 
 #title {
     color: #1a234f;
@@ -472,6 +474,13 @@ button {
 }
 
 #missions {
-    height: 300px;
+    height: 425px;
     overflow-y: scroll;
+}
+
+.img-holder {
+    padding: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
