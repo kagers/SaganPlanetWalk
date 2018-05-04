@@ -2,28 +2,30 @@
 <html lang="en">
 
     <head>
-        <link href='css/styles.css' rel='stylesheet'>
         <link href="css/bootstrap.css" rel="stylesheet">
+        <link href='css/styles.css' rel='stylesheet'>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        
+        <link href='3DSolarSys/styles.css' rel='stylesheet'>
+        <script src="3DSolarSys/prefixfree.min.js"></script>
+        <script src="3DSolarSys/index.js"></script>
     </head>
     
     <body>
         <div id="header" >
-            <div id="backgroundchange">
+            <div id="background">
                 <div class="headerimg"><img src="img/Saturn.png" alt="Header Image"/></div>
             </div>
-            <img class="left" id="science" src="img/logo_science.png"><br><br><br>
+            <a href="http://www.sciencenter.org/sagan-walk.html"><img class="left" id="science" src="img/logo_science.png"></a><br><br><br>
             <img class="left" id="sagan" src="img/logo_sagan.png">
             <div class="right">
-                <img  id="spif" class="center" src="img/logo_spif.png"><br>
+                <a href="http://cornellspif.com/"><img  id="spif" class="center" src="img/logo_spif.png"></a><br><br>
                 <img  id="cornell" class="center" src="img/logo_cornell.png">
-            </div>            
+            </div>           
         </div>
         
         <div class="nnavbar">
-            <a href="#" class="active">Home</a>
-            <a href="#">Our Sun</a>
+            <a href="index.html">Home</a>
+            <a href="sun.html">Our Sun</a>
             <div class="ddropdown">
                 <button class="ddropbtn">Rocky Planets 
                     <i class="fa fa-caret-down"></i>
@@ -40,7 +42,7 @@
                 </button>
                 <div class="ddropdown-content">
                     <a href="jupiter.html">Jupiter</a>
-                    <a href="saturn.html">Saturn</a>
+                    <a href="saturn.html" class="active">Saturn</a>
                     <a href="uranus.html">Uranus</a>
                     <a href="neptune.html">Neptune</a>
                 </div>
@@ -56,99 +58,352 @@
                     <a href="alphacentauri.html">Alpha Centauri</a>
                 </div>
             </div>
-            <a href="">Contact</a>
+            <a href="contact.html">Contact</a>
         </div>
         
-        <div id="main">
-            <div class='row intro'>
-                <div class="col-sm-6 col-xs-12">
-                    <br>
-                    <div class='desc'>
-                        <h4 class="headers">Take a Stroll Through the Solar System</h4>
-                        <div class='block'>
-                            <p>Take an out-of-this-world trek along the Sagan Planet Walk, the Sciencenter’s 1,200-meter-long (3/4-mile), 1:5 billion, <b>scale model of the Solar System</b>. This site, created in partnership with Cornell University’s Spacecraft Planetary Imaging Facility (SPIF),  is a supplementary guide to the Sagan Planet Walk.</p>
-
-                            <p>The pages within this site will provide additional, in-depth information about each planet, star, and other body featured on the walking tour. While on your tour of the Sagan Planet Walk, scan the <b>QR codes</b> found in the bottom right corner of the informational plaque at each planet station to learn about <b>recent discoveries</b>, <b>current research</b> in space exploration, and <b>fun facts</b> about our Solar System.</p>
-                        </div>
-                    </div>
-                    <div class="img-group">
-                        <div class='imgCont1'>
-                            <img id="img1" src="images/people2.jpg">
-                        </div>
-                    </div>
-                    <div class="img-group">
-                        <div class='imgCont1'>
-                            <img id="img3" src="images/people3.jpg">
-                        </div>
-                        <div class='imgCont2'>
-                           <img id="img4" src="images/people5.jpg">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-xs-12 paddingTop">
-                    <div class="img-group">
-                        <div class='imgCont1'>
-                            <img id="img1" src="images/people.jpg">
-                            <div class="buttons">
-                                <button><a href="http://www.sciencenter.org/sagan-walk.html" target='_blank'><b>Visit Sciencenter</b></a></button>
-                                <button><a href="http://spif.astro.cornell.edu"><b>Visit SPIF</b></a></button>                            
+            <div id="main">
+            <div class="container2">
+                <h1 id="title"><b>Saturn</b></h1><br><br>
+                
+                <!-- profile-->
+                <div class="row" id="profile">
+                    <div class="col-sm-6 col-xs-12 pics"><!--basic links and pictures-->
+                        <div class="img-group" style="width:95%; height:100%; margin:auto;">
+                            <div class='imgCont1' style="flex: 1.40868 1 0%;" >
+                                <img id="img1" src="img/sat1.jpg">
                             </div>
-                        </div>
-                    </div> 
-                    <br>
-                    <div class='desc'>
-                        <h4 class="headers">Planetary Passport</h4>
-                        <div class='block'>
-                            <p>You can purchase a <b>Passport to the Solar System</b> for $4 to use as you embark on your 1,200-meter walk. The passport provides interesting <b>facts</b> about each stop while posing <b>questions</b> to encourage discussion. Using this1 as a guide, you are invited to stop at each planet station to read the information provided in the passport and to have your passport stamped as proof of your “visit” to each planet. Each stamp is a Greek symbol that corresponds to the Sun or planet. Take your fully stamped, purchased passport to the Sciencenter for <b>one free admission!</b></p>
-                            <p>Passports are sold at:</p>
-                            <ul>
-                                <li><b>Sciencenter</b>, 601 1st Street</li>
-                                <li><b>15 Steps Gallery</b>, 171 The Commons</li>
-                                <li><b>Cat’s Pajamas</b>, in the DeWitt Mall</li>
-                                <li><b>Ticket Center Ithaca</b>, 171 The Commons</li>
-                                <li><b>Ithaca/Tompkins County Convention and Visitors Bureau</b>, 904 East Shore Drive</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <br>
-                    <div class='desc'>
-                        <h4 class="headers">Free Passport</h4>
-                        <div class='block'>
-                            <p>Alternatively, you can download the Passport to the Solar System for <b>free</b> below. <em><b>Please note that the downloadable passports do not qualify for free admission to the Sciencenter.</b></em></p>
-                            <div class="buttons">
-                                <button><a class='passport' href="images/passport.pdf">Passport Download</a></button>                  
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <hr>
-            <div class='row intro'>
-                <div class="col-sm-12">
-                    <br>
-                    <div class='desc'>
-                        <h4 class="headers">Carl Sagan</h4>
-
-                        <div class='block'>
-                            <div class='row noSideMargin'>
-                              <div class="col-md-4 noSidePadding" align="center">
-                                  <div id='sagan'>
-                                      <img id="img3" src="images/Carl_Sagan.jpg">
-                                  </div>
-                              </div>
-                              <div class="col-md-8 noSidePadding">
-                                  <p>Carl Sagan was Professor of Astronomy and Space Sciences and Director of the Laboratory for Planetary Studies at Cornell University. He was heavily involved in the American space program, from briefing Apollo astronauts before their Moon flights, to leading experiments on the Mariner, Viking, Voyager, and Galileo expeditions, and investigating mysteries like Titan's red haze.</p>
-
-                                  <p>He was a strong advocate of the sciences and a great supporter of the Sciencenter, as well as prominent memeber of the Ithaca community for more than 30 years. We name the planet walk in Carl Sagan's honor in the hopes of continuing his mission to excite future generations about the romance of the scientic enterprise and to convey something of the preciousness and fragility of our tiny world in the context of the vastness of the Cosmos.</p>
+                            <div class='imgCont2' style="flex: 0.602649 1 0%;">
+                                <img id="img2" style="height:56%; width:75%;" src="img/satstop2.png">
+                                <div class="buttons">
+                                    <button><a href="http://www.sciencenter.org/perch/resources/walkmap.pdf"><b>Planet Walk Map</b></a></button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div> 
+                    
+                    <div class="col-sm-6 col-xs-12"><!--quick facts-->
+                        <div class="desc">
+                            <h2 class="headers" >Profile</h2>
+                            <div class="block" style="width:95%; margin:auto;">
+                            <ul>
+                                <li class='blah'><b>Mass:</b> 5.68319 x 10^17 billion kg (95.16 x Earth)</li>
+                                <li class='blah'><b>Equatorial Diameter:</b> 120,536 km</li>
+                                <li class='blah'><b>Polar Diameter:</b> 108,728 km</li>
+                                <li class='blah'><b>Equatorial Circumference:</b> 365,882 km</li>
+                                <li class='blah'><b>Known Moons:</b> 62</li>
+                                <li class='blah'><b>Notable Moons:</b> Titan, Rhea & Enceladus</li>
+                                <li class='blah'><b>Known Rings:</b> 30+ (7 Groups)</li>
+                                <li class='blah'><b>Orbit Distance:</b> 1,426,666,422 km (9.58 x Earth's Distance to the Sun)</li>
+                                <li class='blah'><b>Orbit Period:</b>10,755.70 Earth days (29.45 Earth years)</li>
+                                <li class='blah'><b>Surface Temperature:</b> -139 °C</li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                </div><br>
+            
+                <!--news-->
+                <div id="morenews" class="row">
+                    <div class="desc">
+                        <h2 class="headers" >Latest News about Saturn</h2>
+                        <div class="block">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-4 col-xs-12">
+                                    <div class="thumbnail">
+                                        <img class="img-fluid" src="img/jupNews1.png">
+                                        <div class="caption blah">
+                                            <h4>Thunderstorms On Saturn Can Cause Massive Polar Cyclones On The Planet</h4>
+                                            <h5>June 16, 2015</h5>
+                                            <p>New study shows small thunderstorms on Saturn may eventually add up to massive, long-lived cyclones at the poles.</p>
+                                            <a href="http://www.ibtimes.com/thunderstorms-saturn-can-cause-massive-polar-cyclones-planet-1968499"  class="btn btn-primary" role="button">Read More</a> 
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-12">
+                                    <div class="thumbnail">
+                                        <img class="img-fluid" src="img/jupNews1.png">
+                                        <div class="caption blah">
+                                            <h4>Thunderstorms On Saturn Can Cause Massive Polar Cyclones On The Planet</h4>
+                                            <h5>June 16, 2015</h5>
+                                            <p>New study shows small thunderstorms on Saturn may eventually add up to massive, long-lived cyclones at the poles.</p>
+                                            <a href="http://www.ibtimes.com/thunderstorms-saturn-can-cause-massive-polar-cyclones-planet-1968499"  class="btn btn-primary" role="button">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-12">
+                                    <div class="thumbnail">
+                                        <img class="img-fluid" src="img/jupNews2.jpg">
+                                        <div class="caption blah">
+                                            <h4>Venus, Jupiter and Saturn on the Move</h4>
+                                            <h5>June 24, 2015</h5>
+                                            <p>Venus and Jupiter are very prominent in the western sky after sunset. Thursday they are less than three degrees apart with Venus being slightly closer to the horizon and Jupiter above and to the left (south) of Venus.</p>
+                                            <a href="http://tucson.com/entertainment/outdoors/venus-jupiter-and-saturn-on-the-move/article_c2c8eba7-cf36-532c-aeac-fbee71322645.html" class="btn btn-primary" role="button">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><br>
+
+                <!-- info/missions-->
+                <div class="row">
+                    <div class="col-md-8"><!--basic info-->
+                        <div class='col-sm-12 more noSideMargin'>
+                            <div class="desc">
+                            <h2 class="headers"  >Saturn at a Glance</h2>
+                                <div class="block">
+                                    <div class='col-sm-12 blah inner2' style="margin-bottom: .2em !important; padding-bottom: 0em !important;">
+                                        <p>Adorned with thousands of beautiful ringlets, Saturn is unique among the planets. All four gas giant planets have rings -- made of chunks of ice and rock -- but none are as spectacular or as complicated as Saturn's. Like the other gas giants, Saturn is mostly a massive ball of hydrogen and helium.</p>
+                                    </div>
+                                    <div class='col-sm-12'>
+                                        <div class='img-holder imgSquare' style="margin-bottom: 1em; padding-bottom: 1em;">
+                                            <img id="jup" src='img/sat3.jpg'>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12"><!-- missions-->
+                        <div class="col-sm-12 mission">
+                            <div class="desc">
+                                <h2 class="headers" style="padding: 7.5px;">Missions</h2>
+                                <div class="block">
+                                    <div id="missions">
+                                        <a href="http://saturn.jpl.nasa.gov/" target="_blank"><b>Cassini (1997)</b></a>
+                                      <br>
+                                      <p>NASA/ESA Mission to Saturn</p>
+                                        <a href="http://sci.esa.int/cassini-huygens/" target="_blank"><b>Huygens (2004)</b></a>
+                                      <br>
+                                      <p>NASA/ESA Mission to Saturn's satellite Titan</p>
+                                        <a href="http://solarsystem.nasa.gov/missions/profile.cfm?MCode=Pioneer_11" target="_blank"><b>Pioneer 11 (1979)</b></a>
+                                      <br>
+                                      <p>NASA Saturn flyby</p>
+                                        <a href="http://voyager.jpl.nasa.gov/" target="_blank"><b>Voyager 1 (1977)</b></a>
+                                      <br>
+                                      <p>NASA Mission to Jupiter and Saturn</p>
+                                        <a href="http://voyager.jpl.nasa.gov/" target="_blank"><b>Voyager 2 (1977)</b></a>
+                                        <br>
+                                        <p>NASA Mission to Jupiter, Saturn, Uranus, Neptune, and beyond</p>
+                                        
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div><br>
+                
+                <!-- facts-->
+                <div class="row">
+                    <div class='col-sm-12'>
+                        <div class="col-sm-12 need2know">
+                            <div class="desc">
+                                <h2 class="headers" >10 Fascinating Facts about Saturn</h2>
+                                <div class="block">
+                                    <div class='col-sm-12'>
+                                        <ol class="rounded-list">
+                                            <li><a >If the sun were as tall as a typical front door, Saturn would be about as big as a basketball.</a></li>
+                                    <li><a >Saturn is the sixth planet from the sun at a distance of about 1.4 billion km (886 million miles) or 9.5 AU.</a></li>
+                                    <li><a >One day on Saturn takes 10.7 hours, and one year on Saturn 29 Earth years.</a></li>
+                                    <li><a >Saturn is a gas-giant planet and does not have a solid surface.</a></li>
+                                    <li><a >Saturn's atmosphere is made up mostly of hydrogen (H2) and helium (He).</a></li>
+                                    <li><a >Saturn has 53 known moons with an additional 9 moons awaiting confirmation of their discovery.</a></li>
+                                    <li><a >Saturn has the most spectacular ring system of all our solar system's planets. It is made up of seven rings with several gaps and divisions between them.</a></li>
+                                    <li><a >Five missions have been sent to Saturn. Since 2004, Cassini has been exploring Saturn, its moons and rings.</a></li>
+                                    <li><a >Saturn cannot support life as we know it. However, some of Saturn's moons have conditions that might support life.</a></li>
+                                    <li><a >When Galileo looked at Saturn through a telescope in the 1600s, he noticed strange objects on each side of the planet and drew in his notes a triple-bodied planet system and then later a planet with arms or handles. The sathandles turned out to be the rings of Saturn.</a></li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><br>
+                
+                <!-- physical characteristics-->
+                <div class='row'>
+                    <div  class='col-sm-12'>
+                        <div class="col-sm-12 more">
+                            <div class="desc">
+                                <h2 class="headers" >Physical Characteristics</h2>
+                                <div class="block">
+                                    <div class="row">
+                                        <div class='col'>
+                                            <div class='img-holder imgSquare'>
+                                                <img id="char" src='img/sat5.jpg'>
+                                            </div>
+                                        </div>
+                                        <div class='col'>
+                                            <p>Saturn is a gas giant made up mostly of hydrogen and helium. Saturn is big enough to hold more than 760 Earths, and is more massive than any other planet except Jupiter, roughly 95 times Earth's mass. However, Saturn has the lowest density of all the planets, and is the only one less dense than water.</p>
+                                            <p>The yellow and gold bands seen in Saturn's atmosphere are the result of super-fast winds in the upper atmosphere, which can reach up to 1,100 mph (1,800 km/h) around its equator, combined with heat rising from the planet's interior.</p>
+                                            <p>Saturn spins faster than any other planet except Jupiter, completing a rotation roughly every 10-and-a-half hours. This rapid spinning causes Saturn to bulge at its equator and flatten at its poles — the planet is 8,000 miles (13,000 kilometers) wider at its equator than between the poles.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><br>
+                
+                <!--research/exp-->
+                <div class='row'>
+                    <div class='col-sm-12'>
+                        <div class="col-sm-12 more">
+                            <div class="desc">
+                                <h2 class="headers" >Research and Exploration</h2>
+                                    <div class="block">
+                                        <div class='col-md-12 blah inner2'>
+                                            <p>The first spacecraft to reach Saturn was Pioneer 11 in 1979, flying within 13,700 miles (22,000 km) of it, which discovered the planet's two of its outer rings as well as the presence of a strong magnetic field. The Voyager spacecraft discovered the planet's rings are made up of ringlets, and sent back data that led to the discovery or confirmation of the existence of nine moons.</p>
+                                            <p>The Cassini spacecraft now in orbit around Saturn is the largest interplanetary spacecraft ever built, a two-story-tall probe that, at 6 tons in weight (5,650 kilograms), is roughly equal in mass to an empty 30-passenger school bus. It discovered plumes on the icy moon Enceladus, and carried the Huygens probe, which plunged through Titan's atmosphere to successfully land on its surface. After a decade of observation, Cassini has returned incredible data about the planet and its moons, as well as a photo recreating the original “Pale Blue Dot” image, which captures Earth from behind Saturn, in 2013.</p>
+                                        </div> 
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><br>
+                
+                <!--moons-->
+                <div class='row'>
+                    <div class='col-sm-12'>
+                        <div class="col-sm-12 more">
+                            <div class="desc">
+                                <h2 class="headers" >Saturn's Moons</h2>
+                                    <div class="block">
+                                        <div class='col-md-12'>
+                                            <div class='img-holder imgSquare' id='imgTop'>
+                                                <img id="jup" src='img/satMoon.jpg'>
+                                            </div>
+                                        </div>
+                                        <div class='col-md-12 blah inner2'>
+                                            <p>Saturn is home to a vast array of intriguing and unique worlds. From the cloud-shrouded surface of Titan to crater-riddled Phoebe, each of Saturn's moons tells another piece of the story surrounding the Saturn system. A total of 62 confirmed satellites have been found orbiting Saturn.</p>
+                                
+                                            <p>To learn more about these moons, click on the button below!</p>
+                                            <br>
+                                            <div class='text-center'><button><a href="saturnmoons.php"><b>Saturn's Moons</b></a></button></div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><br>
+  
             </div>
-        
+                
         </div>
+            
+        <div id="footer">
         
+            <!--code for 3d animated solar system, made by Julian Garnier, from https://codepen.io/anon/pen/EyzXxO -->
+            <div id='holder' class="opening hide-UI view-3D zoom-large data-close controls-close">
+
+                <!--removed controls-->
+                <div id="universe" class="scale-stretched">
+                  <div id="galaxy">
+                    <div id="solar-system" class="earth">
+                      <div id="mercury" class="orbit">
+                        <div class="pos">
+                          <div class="planet">
+                            <dl class="infos">
+                              <dt>Mercury</dt>
+                              <dd><span></span></dd>
+                            </dl>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="venus" class="orbit">
+                        <div class="pos">
+                          <div class="planet">
+                            <dl class="infos">
+                              <dt>Venus</dt>
+                              <dd><span></span></dd>
+                            </dl>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="earth" class="orbit">
+                        <div class="pos">
+                          <div class="orbit">
+                            <div class="pos">
+                              <div class="moon"></div>
+                            </div>
+                          </div>
+                          <div class="planet">
+                            <!--<dl class="infos">
+                              <dt>Earth</dt>
+                              <dd><span></span></dd>
+                            </dl>-->
+                          </div>
+                        </div>
+                      </div>
+                      <div id="mars" class="orbit">
+                        <div class="pos">
+                          <div class="planet">
+                            <dl class="infos">
+                              <dt>Mars</dt>
+                              <dd><span></span></dd>
+                            </dl>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="jupiter" class="orbit">
+                        <div class="pos">
+                          <div class="planet">
+                            <dl class="infos">
+                              <dt>Jupiter</dt>
+                              <dd><span></span></dd>
+                            </dl>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="saturn" class="orbit">
+                        <div class="pos">
+                          <div class="planet">
+                            <div class="ring"></div>
+                            <dl class="infos">
+                              <dt>Saturn</dt>
+                              <dd><span></span></dd>
+                            </dl>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="uranus" class="orbit">
+                        <div class="pos">
+                          <div class="planet">
+                            <dl class="infos">
+                              <dt>Uranus</dt>
+                              <dd><span></span></dd>
+                            </dl>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="neptune" class="orbit">
+                        <div class="pos">
+                          <div class="planet">
+                            <dl class="infos">
+                              <dt>Neptune</dt>
+                              <dd><span></span></dd>
+                            </dl>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="sun">
+                        <dl class="infos">
+                          <dt>Sun</dt>
+                          <dd><span></span></dd>
+                        </dl>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <a href="http://www.sciencenter.org/sagan-walk.html"><img class="leftbottom" src="img/logo_science.png"></a>
+            <a href="http://cornellspif.com/"><img class="rightbottom" src="img/logo_spif.png"></a><br>
+        </div><br><br><br><br><br><br><br><br>
+        
+        <div id="citationholder">
+            <h3 id="citation">3D Solar System by <a href="https://twitter.com/JulianGarnier" target="_blank">@JulianGarnier</a></h3>
+        </div>
     </body>
     
 </html>

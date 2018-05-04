@@ -486,7 +486,7 @@ ol a {
 }
 
 #missions {
-    height: 417px;
+    max-height: 417px;
     overflow-y: scroll;
 }
 
