@@ -486,7 +486,7 @@ ol a {
 }
 
 #missions {
-    height: 425px;
+    height: 417px;
     overflow-y: scroll;
 }
 
@@ -498,7 +498,12 @@ ol a {
     text-align: center;
 }
 
-#station {
-    height:50%;
-    width:auto;
+#profile img {
+    width: 100%;
+    height: auto;
+    border: 2px solid white;
+}
+
+.pics {
+    margin-left: 0em;
 }

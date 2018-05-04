@@ -66,14 +66,14 @@
                 <h1 id="title"><b>Jupiter</b></h1><br><br>
                 
                 <!-- profile-->
-                <div class="row">
+                <div class="row" id="profile">
                     <div class="col-sm-6 col-xs-12 pics"><!--basic links and pictures-->
-                        <div class="img-group" style="text-align: center; padding: 10px; width:95%">
-                            <div class='imgCont1' >
-                                <img src="img/jupiterstop.png" style="height:80%;">
+                        <div class="img-group" style="width:95%; height:100%; margin:auto;">
+                            <div class='imgCont1' style="flex: 1.40868 1 0%;" >
+                                <img id="img1" src="img/jupiter1.jpg">
                             </div>
-                            <div class='imgCont2'>
-                                <img id="jup" src="img/jupiter1.jpg"><br><br>
+                            <div class='imgCont2' style="flex: 0.602649 1 0%;">
+                                <img id="img2" style="height:56%; width:75%;" src="img/jupiterstop.png">
                                 <div class="buttons">
                                     <button><a href="http://www.sciencenter.org/perch/resources/walkmap.pdf"><b>Planet Walk Map</b></a></button>
                                 </div>
@@ -83,7 +83,7 @@
                     <div class="col-sm-6 col-xs-12"><!--quick facts-->
                         <div class="desc">
                             <h2 class="headers" >Profile</h2>
-                            <div class="block">
+                            <div class="block" style="width:95%; margin:auto;">
                             <ul>
                                 <li class='blah'><b>Mass:</b> 1.89813 x 10^18 billion kg (317.83 x Earth)</li>
                                 <li class='blah'><b>Equatorial Diameter:</b> 142,984 km</li>
@@ -100,10 +100,52 @@
                         </div>
                     </div>
                 </div><br>
+            
+                <!--news-->
+                <div id="morenews" class="row">
+                    <div class="desc">
+                        <h2 class="headers" >Latest News about Jupiter</h2>
+                        <div class="block">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-4 col-xs-12">
+                                    <div class="thumbnail">
+                                        <img class="img-fluid" src="img/jupNews1.png">
+                                        <div class="caption blah">
+                                            <h4>Venus and Jupiter Put on Cosmic Show</h4>
+                                            <h5>July 1, 2015</h5>
+                                            <p>Venus and Jupiter pulled off a grand spectacle in the night sky. Both bright planets appeared to glide closer together over the month of June in a conjunction NASA called the "best backyard sky show of 2015.</p>
+                                            <a href="http://abcnews.go.com/Technology/jupiter-venus-pull-off-spectacle-night-sky/story?id=32153442"  class="btn btn-primary" role="button">Read More</a> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-12">
+                                    <div class="thumbnail">
+                                        <img class="img-fluid" src="img/jupNews1.png">
+                                        <div class="caption blah">
+                                            <h4>Venus and Jupiter Put on Cosmic Show</h4>
+                                            <h5>July 1, 2015</h5>
+                                            <p>Venus and Jupiter pulled off a grand spectacle in the night sky. Both bright planets appeared to glide closer together over the month of June in a conjunction NASA called the "best backyard sky show of 2015.</p>
+                                            <a href="http://abcnews.go.com/Technology/jupiter-venus-pull-off-spectacle-night-sky/story?id=32153442"  class="btn btn-primary" role="button">Read More</a> 
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-12">
+                                    <div class="thumbnail">
+                                        <img class="img-fluid" src="img/jupNews2.jpg">
+                                        <div class="caption blah">
+                                            <h4>NASA Searches for Water on Jupiter’s Moon</h4>
+                                            <h5>June 19, 2015</h5>
+                                            <p>Jupiter’s icy moon Europa, is covered in an ocean which has been estimated to contain more water than all of the oceans on Earth combined. </p>
+                                            <a href="http://www.spaceflightinsider.com/missions/solar-system/nasas-mission-to-jupiters-icy-moon-europa-moves-to-development-phase/"  class="btn btn-primary" role="button">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><br>
                 
-                <div class="row">
-                    
-                </div>
+            </div>
 
                 <!-- info/missions-->
                 <div class="row">
@@ -256,51 +298,7 @@
                     </div>
                 </div><br>
 
-                <!--news-->
-                <div class="row">
-                    <div class="desc">
-                        <h2 class="headers" >Latest News about Jupiter</h2>
-                        <div class="block">
-                            <div class="row">
-                                <div class="col-md-4 col-sm-4 col-xs-12">
-                                    <div class="thumbnail">
-                                        <img class="img-fluid" src="img/jupNews1.png">
-                                        <div class="caption blah">
-                                            <h4>Venus and Jupiter Put on Cosmic Show</h4>
-                                            <h5>July 1, 2015</h5>
-                                            <p>Venus and Jupiter pulled off a grand spectacle in the night sky. Both bright planets appeared to glide closer together over the month of June in a conjunction NASA called the "best backyard sky show of 2015.</p>
-                                            <a href="http://abcnews.go.com/Technology/jupiter-venus-pull-off-spectacle-night-sky/story?id=32153442"  class="btn btn-primary" role="button">Read More</a> 
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-4 col-xs-12">
-                                    <div class="thumbnail">
-                                        <img class="img-fluid" src="img/jupNews1.png">
-                                        <div class="caption blah">
-                                            <h4>Venus and Jupiter Put on Cosmic Show</h4>
-                                            <h5>July 1, 2015</h5>
-                                            <p>Venus and Jupiter pulled off a grand spectacle in the night sky. Both bright planets appeared to glide closer together over the month of June in a conjunction NASA called the "best backyard sky show of 2015.</p>
-                                            <a href="http://abcnews.go.com/Technology/jupiter-venus-pull-off-spectacle-night-sky/story?id=32153442"  class="btn btn-primary" role="button">Read More</a> 
-                                      </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-4 col-xs-12">
-                                    <div class="thumbnail">
-                                        <img class="img-fluid" src="img/jupNews2.jpg">
-                                        <div class="caption blah">
-                                            <h4>NASA Searches for Water on Jupiter’s Moon</h4>
-                                            <h5>June 19, 2015</h5>
-                                            <p>Jupiter’s icy moon Europa, is covered in an ocean which has been estimated to contain more water than all of the oceans on Earth combined. </p>
-                                            <a href="http://www.spaceflightinsider.com/missions/solar-system/nasas-mission-to-jupiters-icy-moon-europa-moves-to-development-phase/"  class="btn btn-primary" role="button">Read More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><br>
                 
-            </div>
         </div>
             
         <div id="footer">
