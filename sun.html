@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href='css/styles.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href='3DSolarSys/styles.css' rel='stylesheet'>
+        <script src="3DSolarSys/prefixfree.min.js"></script>
+        <script src="3DSolarSys/index.js"></script>
+    </head>
+    
+    <body>
+        <div id="header" >
+            <div id="background">
+                <div class="headerimg"><img src="img/Sun.png" alt="Header Image"/></div>
+            </div>
+            <a href="http://www.sciencenter.org/sagan-walk.html"><img class="left" id="science" src="img/logo_science.png"></a><br><br><br>
+            <img class="left" id="sagan" src="img/logo_sagan.png">
+            <div class="right">
+                <a href="http://cornellspif.com/"><img  id="spif" class="center" src="img/logo_spif.png"></a><br><br>
+                <img  id="cornell" class="center" src="img/logo_cornell.png">
+            </div>           
+        </div>
+        
+        <div class="nnavbar">
+            <a href="index.html">Home</a>
+            <a href="sun.html" class="active">Our Sun</a>
+            <div class="ddropdown">
+                <button class="ddropbtn">Rocky Planets 
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="ddropdown-content">
+                    <a href="mercury.html">Mercury</a>
+                    <a href="venus.html">Venus</a>
+                    <a href="earth.html">Earth</a>
+                    <a href="mars.html">Mars</a>
+                </div>
+            </div> 
+            <div class="ddropdown">
+                <button class="ddropbtn">Giant Planets 
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="ddropdown-content">
+                    <a href="jupiter.html">Jupiter</a>
+                    <a href="saturn.html">Saturn</a>
+                    <a href="uranus.html">Uranus</a>
+                    <a href="neptune.html">Neptune</a>
+                </div>
+            </div>
+            <div class="ddropdown">
+                <button class="ddropbtn">Other Bodies 
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="ddropdown-content">
+                    <a href="asteroids.html">Main Asteroid Belt</a>
+                    <a href="kuiper.html">Kuiper Belt</a>
+                    <a href="oort.html">Oort Cloud</a>
+                    <a href="alphacentauri.html">Alpha Centauri</a>
+                </div>
+            </div>
+            <a href="contact.html">Contact</a>
+        </div>
+        
+            <div id="main">
+            <div class="container2">
+                <h1 id="title"><b>Sun</b></h1><br><br>
+                
+                <!-- profile-->
+                <div class="row" id="profile">
+                    <div class="col-sm-6 col-xs-12 pics"><!--basic links and pictures-->
+                        <div class="img-group" style="width:95%; height:100%; margin:auto;">
+                            <div class='imgCont1' style="flex: 1.40868 1 0%;" >
+                                <img id="img1" src="img/sun1.jpg">
+                            </div>
+                            <div class='imgCont2' style="flex: 0.602649 1 0%;">
+                                <img id="img2" style="height:56%; width:75%;" src="img/sunStop.jpg">
+                                <div class="buttons">
+                                    <button><a href="http://www.sciencenter.org/perch/resources/walkmap.pdf"><b>Planet Walk Map</b></a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-6 col-xs-12"><!--quick facts-->
+                        <div class="desc">
+                            <h2 class="headers" >Profile</h2>
+                            <div class="block" style="width:95%; margin:auto;">
+                            <ul>
+                                <li class='blah'><b>Age:</b> 4.6 Billion Years</li>
+                                <li class='blah'><b>Type:</b> Yellow Dwarf (G2V)</li>
+                                <li class='blah'><b>Diameter:</b> 1,392,684 km</li>
+                                <li class='blah'><b>Circumference at Equator:</b> 4,370,005.6 km</li>
+                                <li class='blah'><b>Mass:</b> 1.9891 x 10^21 billion kg (333,060 x Earth)</li>
+                                <li class='blah'><b>Surface Temperature:</b> 9,941 °F</li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                </div><br>
+            
+                <!--news-->
+                <div id="morenews" class="row">
+                    <div class="desc">
+                        <h2 class="headers" >Latest News about the Sun</h2>
+                        <div class="block">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-4 col-xs-12">
+                      <div class="thumbnail">
+                          <img class="img-fluid" src="img/marsNews1.png">
+                          <div class="caption blah">
+                              <h4>NASA unveils first plane to fly on Mars</h4>
+                              <h5>July 2, 2015</h5>
+                              <p>NASA has unveiled a boomerang-shaped aircraft that could be the first to take flight on Mars to look for potential landing sites for future manned mission to the red planet.</p>
+                              <a href="http://economictimes.indiatimes.com/news/science/nasa-unveils-first-plane-to-fly-on-mars/articleshow/47910430.cms"  class="btn btn-primary" role="button">Read More</a> 
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4 col-xs-12">
+                      <div class="thumbnail">
+                          <img class="img-fluid" src="img/marsNews2.jpg">
+                          <div class="caption blah">
+                              <h4>Blue Auroras on Red Planet?</h4>
+                              <h5>June 25, 2015</h5>
+                              <p>While previous research had confirmed the presence of beautiful "southern lights" on Mars, the new study predicts for the first time that the auroras of the Red Planet may be visible to the human eye.</p>
+                              <a href="http://www.nbcnews.com/science/space/blue-auroras-red-planet-mars-astronauts-may-be-able-see-n381906"  class="btn btn-primary" role="button">Read More</a>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="col-md-4 col-sm-4 col-xs-12">
+                      <div class="thumbnail">
+                          <img class="img-fluid" src="img/marsNews3.jpg">
+                          <div class="caption blah">
+                              <h4>Glass Detected on Mars Could Hold Evidence of Life</h4>
+                              <h5>June 8, 2015</h5>
+                              <p>NASA announced on Monday that scientists had detected glass deposits on Mars from data collected by the Mars Reconnaissance Orbiter. Impact glass is created in the intense heat generated by a meteorite crashing into a planet's surface.</p>
+                              <a href="http://www.nbcnews.com/science/space/mars-orbiter-detects-glass-planets-surface-n371811"  class="btn btn-primary" role="button">Read More</a>
+                          </div>
+                      </div>
+                  </div>
+                        
+                            </div>
+                        </div>
+                    </div>
+                </div><br>
+
+                <!-- info/missions-->
+                <div class="row">
+                    <div class="col-md-8"><!--basic info-->
+                        <div class='col-sm-12 more noSideMargin'>
+                            <div class="desc">
+                            <h2 class="headers"  >The Sun at a Glance</h2>
+                                <div class="block">
+                                    <div class='col-sm-12 blah inner2' style="margin-bottom: .2em !important; padding-bottom: 0em !important;">
+                                        <p>Mars is a cold desert world. It is half the diameter of Earth and has the same amount of dry land. Like Earth, Mars has seasons, polar ice caps, volcanoes, canyons and weather, but its atmosphere is too thin for liquid water to exist for long on the surface. There are signs of ancient floods on Mars, but evidence for water now exists mainly in icy soil and thin clouds.</p>
+                            </div>
+                                    <div class='col-sm-12'>
+                                        <div class='img-holder imgSquare' style="margin-bottom: 1em; padding-bottom: 1em;">
+                                            <img id="jup" src='img/mars2.jpg'>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12"><!-- missions-->
+                        <div class="col-sm-12 mission">
+                            <div class="desc" style="margin-top: 1em;">
+                                <h2 class="headers" style="padding: 7.5px;">Missions</h2>
+                                <div class="block">
+                                    <div id="missions">
+                                      <a href="http://science.nasa.gov/missions/solar-probe/" target="_blank"><b>Solar Probe Plus (2015)</b></a>
+                                      <br>
+                                      <p>Mission to explore the Sun’s atmosphere</p>
+                                    
+                                      <a href="https://www.nasa.gov/mission_pages/sdo/main/index.html" target="_blank"><b>Solar Dynamics Observatory (2010)</b></a>
+                                      <br>
+                                      <p> Mission to study the influence of the Sun on Earth and the inner solar system</p>
+                                    
+                                      <a href="http://science.nasa.gov/missions/ibex/" target="_blank"><b>IBEX (2008)</b></a>
+                                      <br>
+                                      <p>Mission to detect the edge of the solar system</p>
+                                    
+                                     <a href="http://www.nasa.gov/mission_pages/hinode/index.html" target="_blank"><b>Hinode (2006)</b></a>
+                                      <br>
+                                      <p>Mission to study the relationship of magnetic energy from the photosphere to the corona</p>
+                                    
+                                     <a href="http://www.nasa.gov/mission_pages/stereo/main/index.html" target="_blank"><b>Stereo (2006)</b></a>
+                                      <br>
+                                      <p>Mission to study structure and evolution of solar storms</p>
+                                    
+                                     <a href="http://science.nasa.gov/missions/rhessi/" target="_blank"><b>RHESSI (2002)</b></a>
+                                      <br>
+                                      <p>Explores particle acceleration and energy release in solar flare</p>
+                                   
+                                     <a href="http://science.nasa.gov/missions/genesis/" target="_blank"><b>Genesis (2001)</b></a>
+                                      <br>
+                                      <p>Collected solar wind for two years</p>
+                                    
+                                     <a href="http://science.nasa.gov/missions/trace/" target="_blank"><b>TRACE (1998)</b></a>
+                                      <br>
+                                      <p> Mission to study three-dimensional magnetic structures emerging through the Sun’s photospere</p>
+                                    
+                                     <a href="http://science.nasa.gov/missions/ace/" target="_blank"><b>ACE (1997)</b></a>
+                                      <br>
+                                      <p> Designed to study spaceborne energetic particles and provide space weather data</p>
+                                    
+                                    <a href="http://www.nasa.gov/mission_pages/soho/index.html" target="_blank"><b>SOHO (1995)</b></a>
+                                      <br>
+                                      <p>Solar and Heliospheric Observatory keeping watch on the Sun</p>
+                                    
+                                     <a href="http://science.nasa.gov/missions/wind/" target="_blank"><b>Wind (1994)</b></a>
+                                      <br>
+                                      <p>Mission to measure interplanetary conditions arising from solar wind</p>
+                                    
+                                     <a href="http://solarscience.msfc.nasa.gov/Yohkoh.shtml" target="_blank"><b>Yohkoh (1991)</b></a>
+                                      <br>
+                                      <p>Japanese solar mission with US and UK</p>
+                                    
+                                    <a href="http://science.nasa.gov/missions/ulysses/" target="_blank"><b>Ulysses (1990)</b></a>
+                                      <br>
+                                      <p>Mission to investigate sun in three dimensions</p>
+                                    
+                                     <a href="https://solarsystem.nasa.gov/missions/profile.cfm?MCode=Helios_02" target="_blank"><b>Helios 2 (1976)</b></a>
+                                      <br>
+                                      <p>Mission to investigate solar processes</p>
+                                   
+                                     <a href="https://solarsystem.nasa.gov/missions/profile.cfm?MCode=Helios_01" target="_blank"><b>Helios 1 (1974)</b></a>
+                                      <br>
+                                      <p>Mission to study solar processes and solar-terrestrial relationships </p>
+                                   
+                                    <a href="https://solarsystem.nasa.gov/missions/profile.cfm?MCode=Pioneer_09" target="_blank"><b>Pioneer 9 (1968)</b></a>
+                                      <br>
+                                      <p>Sent to study space from heliocentric orbit</p>
+                                    
+                                     <a href="http://www.nasa.gov/centers/ames/missions/archive/pioneer.html" target="_blank"><b>Pioneer 8 (1967)</b></a>
+                                      <br>
+                                      <p>Sent to study interplanetary space</p>
+                                    
+                                     <a href="http://www.nasa.gov/centers/ames/missions/archive/pioneer.html" target="_blank"><b>Pioneer (1966)</b></a>
+                                      <br>
+                                      <p>Identical to Pioneer 6 and put into orbit to study the solar magnetic field</p>
+                                    
+                                     <a href="http://www.nasa.gov/centers/ames/missions/archive/pioneer.html" target="_blank"><b>Pioneer 6 (1965)</b></a>
+                                      <br>
+                                      <p>First in a series of solar orbiters</p> 
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div><br>
+                
+                <!-- facts-->
+                <div class="row">
+                    <div class='col-sm-12'>
+                        <div class="col-sm-12 need2know">
+                            <div class="desc">
+                                <h2 class="headers" >10 Fascinating Facts about the Sun</h2>
+                                <div class="block">
+                                    <div class='col-sm-12'>
+                                        <ol class="rounded-list">
+                                            <li><a >The Sun is actually a star.</a></li>
+                                <li><a >The Sun makes up 99.8% of the mass of the entire solar system.</a></li>
+                                <li><a >Since the Sun is not a solid body, different parts of the Sun rotate at different rates. At the equator, the Sun spins once about every 25 Earth days, but at its poles the Sun rotates once every 36 days.</a></li>
+                                <li><a >The solar atmosphere is where features like sunspots or solar flares are seen.</a></li>
+                                <li><a >The Sun is orbited by eight planets, at least five dwarf planets, tens of thousands of asteroids, and as many as three trillion comets and icy bodies.</a></li>
+                                <li><a >Without the Sun's intense energy there would be no life on Earth.</a></li>
+                                <li><a >The temperature at the Sun's core is about 27 million degrees Fahrenheit.</a></li>
+                                <li><a >Light from the Sun reaches Earth in around 8 minutes due to the speed of light.</a></li>
+                                <li><a >The Sun itself is travelling about 220 kilometers per second around the center of the Milky Way.</a></li>
+                                <li><a >Approximately every 11 years, the Sun reverses its overall magnetic polarity: its north magnetic pole becomes a south pole, and vice versa.</a></li>
+                            </ol>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><br>
+                
+                <!-- physical characteristics-->
+                <div class='row'>
+                    <div  class='col-sm-12'>
+                        <div class="col-sm-12 more">
+                            <div class="desc">
+                                <h2 class="headers" >Physical Characteristics</h2>
+                                <div class="block">
+                                    <div class="row">
+                                        <div class='col'>
+                                            <div class='img-holder imgSquare'>
+                                                <img id="char" src='img/mars3.jpg'>
+                                            </div>
+                                        </div>
+                                        <div class='col'>
+                                            <p>The bright rust color Mars is known for is due to iron-rich minerals in its regolith — the loose dust and rock covering its surface. The soil of Earth is a kind of regolith, albeit one loaded with organic content. According to NASA, the iron minerals oxidize, or rust, causing the soil to look red.</p>
+                          <p>The cold, thin atmosphere means liquid water currently cannot exist on the Martian surface for any length of time. This means that although this desert planet is just half the diameter of Earth, it has the same amount of dry land.</p>
+                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><br>
+                
+                <!--research/exp-->
+                <div class='row'>
+                    <div class='col-sm-12'>
+                        <div class="col-sm-12 more">
+                            <div class="desc">
+                                <h2 class="headers" >Research and Exploration</h2>
+                                    <div class="block">
+                                        <div class='col-md-12 blah inner2'>
+                                            <p>Between 1962 and 1971, NASA launched a series of eight orbiting observatories known as the <b>Orbiting Solar Obervatory</b>. Seven of them were successful. They succeeded in analyzing the Sun and photographing the super-hot <b>corona</b> (outer atmosphere of the Sun), among other acheivements. In addition, NASA and the European Space Agency launced the <b>Ulysses</b> probe in 1990. It made the first observations of the Sun's <b>polar regions.</b> In 2004, NASA's Genesis spaceraft was able to return to Earth samples of the <a href="http://solarscience.msfc.nasa.gov/SolarWind.shtml"><b>solar wind.</b></a></p>
+                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><br>
+                
+                <!--moons-->
+                <div class='row'>
+                    <div class='col-sm-12'>
+                        <div class="col-sm-12 more">
+                            <div class="desc">
+                                <h2 class="headers" >Mars's Moons</h2>
+                                    <div class="block">
+                                        <div class='col-md-12'>
+                                            <div class='img-holder imgSquare' id='imgTop'>
+                                                <img id="jup" src='img/marsmoons2.gif'>
+                                            </div>
+                                        </div>
+                                        <div class='col-md-12 blah inner2'>
+                                           <p>Mars has two small moons: Phobos and Deimos. Phobos (fear) and Deimos (panic) were named for the mythological sons of Ares, the Greek counterpart of the Roman god, Mars. Both Phobos and Deimos were discovered in 1877 by American astronomer Asaph Hall. The moons appear to have surface materials similar to many asteroids in the outer asteroid belt, which leads most scientists to believe that Phobos and Deimos are captured asteroids.</p>
+                          
+                          <p>To learn more about these moons, click on the button below!</p>
+                          <br>
+                          <div class='text-center'><button><a href="marsmoons.php"><b>Mars's Moons</b></a></button></div>
+                      </div>
+                                        
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><br>
+  
+            </div>
+                
+        </div>
+            
+        <div id="footer">
+        
+            <!--code for 3d animated solar system, made by Julian Garnier, from https://codepen.io/anon/pen/EyzXxO -->
+            <div id='holder' class="opening hide-UI view-3D zoom-large data-close controls-close">
+
+                <!--removed controls-->
+                <div id="universe" class="scale-stretched">
+                  <div id="galaxy">
+                    <div id="solar-system" class="earth">
+                      <div id="mercury" class="orbit">
+                        <div class="pos">
+                          <div class="planet">
+                            <dl class="infos">
+                              <dt>Mercury</dt>
+                              <dd><span></span></dd>
+                            </dl>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="venus" class="orbit">
+                        <div class="pos">
+                          <div class="planet">
+                            <dl class="infos">
+                              <dt>Venus</dt>
+                              <dd><span></span></dd>
+                            </dl>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="earth" class="orbit">
+                        <div class="pos">
+                          <div class="orbit">
+                            <div class="pos">
+                              <div class="moon"></div>
+                            </div>
+                          </div>
+                          <div class="planet">
+                            <!--<dl class="infos">
+                              <dt>Earth</dt>
+                              <dd><span></span></dd>
+                            </dl>-->
+                          </div>
+                        </div>
+                      </div>
+                      <div id="mars" class="orbit">
+                        <div class="pos">
+                          <div class="planet">
+                            <dl class="infos">
+                              <dt>Mars</dt>
+                              <dd><span></span></dd>
+                            </dl>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="jupiter" class="orbit">
+                        <div class="pos">
+                          <div class="planet">
+                            <dl class="infos">
+                              <dt>Jupiter</dt>
+                              <dd><span></span></dd>
+                            </dl>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="saturn" class="orbit">
+                        <div class="pos">
+                          <div class="planet">
+                            <div class="ring"></div>
+                            <dl class="infos">
+                              <dt>Saturn</dt>
+                              <dd><span></span></dd>
+                            </dl>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="uranus" class="orbit">
+                        <div class="pos">
+                          <div class="planet">
+                            <dl class="infos">
+                              <dt>Uranus</dt>
+                              <dd><span></span></dd>
+                            </dl>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="neptune" class="orbit">
+                        <div class="pos">
+                          <div class="planet">
+                            <dl class="infos">
+                              <dt>Neptune</dt>
+                              <dd><span></span></dd>
+                            </dl>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="sun">
+                        <dl class="infos">
+                          <dt>Sun</dt>
+                          <dd><span></span></dd>
+                        </dl>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <a href="http://www.sciencenter.org/sagan-walk.html"><img class="leftbottom" src="img/logo_science.png"></a>
+            <a href="http://cornellspif.com/"><img class="rightbottom" src="img/logo_spif.png"></a><br>
+        </div><br><br><br><br><br><br><br><br>
+        
+        <div id="citationholder">
+            <h3 id="citation">3D Solar System by <a href="https://twitter.com/JulianGarnier" target="_blank">@JulianGarnier</a></h3>
+        </div>
+    </body>
+    
+</html>
