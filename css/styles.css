@@ -537,3 +537,7 @@ table td {
     border-right: 2px solid rgba(255, 255,255);
     border-left: 2px solid rgba(255, 255,255);
 }
+
+.unblock {
+    display:inline;
+}
