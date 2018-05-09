@@ -74,13 +74,6 @@ body {
     margin-top: 0.5em;
 }
 
-#citation {
-    float: right;
-    color: white;
-    font-size: 12px;
-    bottom: 0;
-}
-
 #footer {
     overflow: hidden; 
     height: 100%;
@@ -97,6 +90,41 @@ body {
     color:white; 
     width:97.5%; 
     text-align:right;
+    float: right;
+    font-size: 12px;
+    bottom: 0;
+}
+
+#contleftholder {
+    position: relative;
+}
+
+#contleft {
+    position: absolute; 
+    bottom: 0; 
+    color:white; 
+    width:97.5%; 
+    text-align:left;
+    float: left;
+    font-size: 12px;
+    bottom: 0;
+    margin-left: 2.9em;
+}
+
+#contrightholder {
+    position: relative;
+    margin-top: -1.5em;
+}
+
+#contright {
+    position: absolute; 
+    bottom: 0; 
+    color:white; 
+    width:97.5%; 
+    text-align:right;
+    float: right;
+    font-size: 12px;
+    bottom: 0;
 }
 
 #citationholder {
@@ -540,4 +568,13 @@ table td {
 
 .unblock {
     display:inline;
+}
+
+.contactimg {
+    width: 80%;
+    height:auto;
+    border: 2px solid white;
+}
+.contactimgholder {
+    text-align: center;
 }
