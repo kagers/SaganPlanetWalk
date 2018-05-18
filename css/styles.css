@@ -421,6 +421,7 @@ animation-duration: 24s;
 }
 
 .desc {
+    background-color: rgb(255,255,255);
     background-color: rgb(255,255,255,0.75);
     margin: auto;
     width: 95%;
@@ -577,8 +578,13 @@ table td {
     height:auto;
     border: 2px solid white;
 }
+
 .contactimgholder {
     text-align: center;
+}
+
+.thumbnail {
+    margin-top: 1em;
 }
 
 
