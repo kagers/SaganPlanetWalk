@@ -1,6 +1,7 @@
 body {
-    background-image: url("../img/starfield2.png");
+    background-image: url("../img/starfield2d.png");
     overflow-x: hidden;
+    background-attachment: fixed;
 }
 
 #header {
